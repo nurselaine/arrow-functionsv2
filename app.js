@@ -192,3 +192,13 @@ joe.scopeArrow(); // window object
 // Arrow functions do not have binding to "this". Arrow functions have lexical scoping to "this" - 
 // Lexical scope: variable defined outside a function can be accessed inside another function after variable is 
 // declared, but variables inside a function will not be accessible outside that function
+
+// Add a comment in your Canvas assignment which includes the following:
+// A question within the context of today’s lab assignment
+//    What are some other ways to practice using "this" and arrow functions? - How often do programmers 
+//    use "this" and arrow functions
+// An observation about the lab assignment, or related ‘Ah-hah!’ moment
+//    Arrow functions are really useful with the feature of being anonymous. You can write event functions
+//    in a much more efficient way 
+// How long you spent working on this assignment
+//    I spent an hour - mostly reading and doing extra research to better understand materials
