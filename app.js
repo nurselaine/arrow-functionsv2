@@ -175,17 +175,30 @@ Student.prototype.scope = function() {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// joe.scope();
+joe.scope();
 
 Student.prototype.scopeArrow = () => console.log(this);
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// joe.scopeArrow();
+joe.scopeArrow(); // window object
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
+// "this" is the person object 
 //
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+// "this" represents global object 'window' 
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// Arrow functions do not have binding to "this". Arrow functions have lexical scoping to "this" - 
+// Lexical scope: variable defined outside a function can be accessed inside another function after variable is 
+// declared, but variables inside a function will not be accessible outside that function
+
+// Add a comment in your Canvas assignment which includes the following:
+// A question within the context of today’s lab assignment
+//    What are some other ways to practice using "this" and arrow functions? - How often do programmers 
+//    use "this" and arrow functions
+// An observation about the lab assignment, or related ‘Ah-hah!’ moment
+//    Arrow functions are really useful with the feature of being anonymous. You can write event functions
+//    in a much more efficient way 
+// How long you spent working on this assignment
+//    I spent an hour - mostly reading and doing extra research to better understand materials
